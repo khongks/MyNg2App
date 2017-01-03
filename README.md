@@ -2,6 +2,9 @@
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
 
+This is based on a tutorial from IBM developerworks
+https://www.ibm.com/developerworks/library/wa-implement-a-single-page-application-with-angular2/index.html
+
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
