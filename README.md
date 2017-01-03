@@ -32,3 +32,12 @@ Run `ng github-pages:deploy` to deploy to Github Pages.
 ## Further help
 
 To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Deploy to Bluemix
+
+After you have run `ng build`, you can deploy the build artifacts (index.html, 3 Javascript files, and 1 CSS file) into Bluemix. To do so, you need to run the following staticfile-buildpack (in the folder containing the build artifacts).
+
+cf push <appname> -b https://github.com/cloudfoundry-community/staticfile-buildpack
+
+I have this running on IBM Bluemix
+https://ksng2app.mybluemix.net/
